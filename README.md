@@ -7,7 +7,7 @@ Sample solution for the [task-tracker](https://roadmap.sh/projects/task-tracker)
 Clone the repository and run the following command:
 
 ```bash
-[git clone https://github.com/arikchakma/backend-projects.git](https://github.com/baldhashreya/Task_Tracker_CLI.git)
+[git clone https://github.com/baldhashreya/Task_Tracker_CLI.git]
 cd backend-projects/task-tracker
 ```
 
