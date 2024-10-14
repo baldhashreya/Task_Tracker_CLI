@@ -23,5 +23,6 @@ To install Task Tracker, follow these steps:
 
 3.run comman on cmd for install packages
   npm i -f
+  
 4.for run the project 
   run : npm start on cmd
