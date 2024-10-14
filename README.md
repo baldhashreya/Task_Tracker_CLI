@@ -1,28 +1,39 @@
 # Task Tracker
 
-## Description
-Task Tracker is a project used to track and manage your tasks. In this project, you will build a simple command-line interface (CLI) to track what you need to do, what you have done, and what you are currently working on. This project will help you practice your programming skills, including working with the filesystem, handling user inputs, and building a simple CLI application.
+Sample solution for the [task-tracker](https://roadmap.sh/projects/task-tracker) challenge from [roadmap.sh](https://roadmap.sh/).
 
-## Features
-- Add, update, and delete tasks
-- Mark a task as in progress or done
-- List all tasks
-- List all tasks that are done
-- List all tasks that are not done
-- List all tasks that are in progress
+## How to run
 
-## Installation
-To install Task Tracker, follow these steps:
+Clone the repository and run the following command:
 
-1. Create a folder named `task_tracker`:
-   ```bash
-   mkdir task_tracker
-   cd task_tracker
-2. Clone the repository:
-   (https://github.com/baldhashreya/Task_Tracker_CLI.git)
+```bash
+git clone https://github.com/arikchakma/backend-projects.git
+cd backend-projects/task-tracker
+```
 
-3.run comman on cmd for install packages
-  npm i -f
-  
-4.for run the project 
-  run : npm start on cmd
+Run the following command to build and run the project:
+
+```bash
+go build -o task-tracker
+./task-tracker --help # To see the list of available commands
+
+# To add a task
+./task-tracker add "Buy groceries"
+
+# To update a task
+./task-tracker update 1 "Buy groceries and cook dinner"
+
+# To delete a task
+./task-tracker delete 1
+
+# To mark a task as in progress/done/todo
+./task-tracker mark-in-progress 1
+./task-tracker mark-done 1
+./task-tracker mark-todo 1
+
+# To list all tasks
+./task-tracker list
+./task-tracker list done
+./task-tracker list todo
+./task-tracker list in-progress
+```
